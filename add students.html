@@ -3,36 +3,65 @@
 <head>
 	<title>RBK</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-	<hr>
-	<h1>RBK Alumni</h1>
-	<hr>
-<div class="slideShow">
-	<img class="sImage" src="images/student1.jpg">
-</div>
-<center>
-	<br>
-	<button id="addStudent">Add Student</button><br><br>
+	<header>
+		
+	<ul class="navbar">
+	  <li><a class="active" href="index.html">Home</a></li>
+	  <li><a href="add students.html">New Alumni</a></li>
+	  <li><a href="about.html">About</a></li>
 
-	<label> ID <input id="index" type="text" value="1" name="Full Name"> </label><br><br>
+	</ul>
+
+	</header>
+	<!-- <h1>RBK Add Stu</h1> -->
+	
+<div class="slideShow">
+	<img class="sImage" src="slideshow/slide1.jpg">
+</div>
+	
+<div class="ids">
+	<label> ID of Student <input id="index" type="text" value="1" > </label><br><br>
+</div>
+
+
+
+
 
 <div id="info">
-	<label> Full Name <input id="name" type="text" name="Full Name"></label><br><br>
-	<label> Age <input id="age" type="text" name="Full Name"></label><br><br>
-	<label> From Where <input id="fWhere" type="text" name="Full Name"></label><br><br><label> Current Work <input id="work" type="text" name="Full Name"></label><br><br>
+	<span class="infos">
+		<label> Full Name <input id="name" type="text" ></label>
+	</span>
+	<span class="infos">
+		<label> Age <input id="age" type="text" ></label>
+	</span>
+		<button id="addStudent">Add Student</button>
+
+	<br>
+	<br>
+
+	<span class="infos">
+		<label> From Where <input id="fWhere" type="text" ></label>
+	</span>
+
+	<span class="infos">
+		<label> Current Work <input id="work" type="text" name="Full Name"></label>
+	</span>
+	<span>	  
+		<input  type='file' id="inputFile" size="60" />
+	</span>
 	
 </div>
 
 
 
-<!-- 
-<input type='file' id='getval' name="background-image" /><br/><br/>
-<div id='clock'></div> -->
 
 
-<button>Upload Photo </button>
-</center>
+  
+
+
 
 <script src="jquery-3.3.1.min.js"></script>
   

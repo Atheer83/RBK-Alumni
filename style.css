@@ -7,15 +7,153 @@
  height: 60%;
  padding: 15% 35% 25% 35%;
  color: #000000;
- background-color: rgba(100, 100, 100, 0.9);
+ background-color: rgba(255, 255, 255, 0.9);
  text-align: center;
  text-shadow: #333 0 1px 0; }
+ 
+ /*.alumni {
+ 	float: left;
+ }*/
 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Raleway', sans-serif;
 
- #clock{
-   background-image:url('');
-   background-size:cover;
-   background-position: center;
-   height: 250px; width: 250px;
-   border: 1px solid #bbb;
 }
+
+.navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+
+}
+	li {
+    border-right:1px solid #bbb;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+li:last-child {
+    border-right: none;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+li a {
+	float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+        font-family: 'Raleway', sans-serif;
+
+}
+
+.active {
+    background-color: #4CAF50;
+}
+#fix {
+	margin:70px;
+	float:left;
+	width:200px;
+	text-align:center;
+	    font-family: 'Raleway', sans-serif;
+
+}
+
+#info {
+		padding: 30px 350px 30px ;
+		font-size: 30px;
+		    font-family: 'Raleway', sans-serif;
+
+
+
+}
+.ids{
+		padding: 30px 350px 1px ;
+		font-size: 30px;
+		    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+label{
+	padding: 50px;
+}
+
+input {
+	width:200px;
+	height: 40px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+
+}
+input[type="text"]
+{
+    font-size:24px;
+    text-align: center;
+        font-family: 'Raleway', sans-serif;
+
+}
+
+/*#inputFile{
+	padding: 30px 250px 1px ;
+			font-size: 15px;
+
+}*/
+
+
+
+
+
+#inputFile {
+  color: red;
+  background-color: white;
+padding: 30px 250px 1px ;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+      font-family: 'Raleway', sans-serif;
+
+}
+
+#logo{
+	padding-top:100px;
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;	}
+
+h1{
+text-align: center;
+padding-top:70px;
+font-size: 65px;
+color: #4CAF50;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
